@@ -1,10 +1,10 @@
 <?php
 echo 'new';
-$dir = '/var/www/html';
+$dir = '/var/www/html/wwwroot';
 $files1 = scandir($dir);
 
 print_r($files1);
-
+print_r($_SERVER);
 /*
 //$mysqli = new mysqli("localhost","root","","lms");
 // Check connection
