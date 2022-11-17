@@ -1,6 +1,6 @@
 <?php
-require('connection.php');
-include('scripts.php');
+require('/connection.php');
+include('/scripts.php');
 
 $index_page = '/index.php';
 $products_page = '/products.php';
