@@ -1,4 +1,5 @@
 <?php
+echo 'new';
 $dir = '/var/www/html';
 $files1 = scandir($dir);
 
