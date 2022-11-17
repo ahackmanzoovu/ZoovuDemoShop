@@ -1,5 +1,5 @@
 <?php
-$nav = $_SERVER['DOCUMENT_ROOT'] . '/lms/nav.php';
+$nav = $_SERVER['DOCUMENT_ROOT'] . '/nav.php';
 include($nav);
 
 $sku = $_GET['id'];
@@ -13,9 +13,9 @@ $row = $result -> fetch_assoc();
     <div class="row">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/lms/index.php">Home</a></li>
-                <li class="breadcrumb-item"><a href="/lms/products.php">All Products</a></li>
-                <li class="breadcrumb-item"><a href="/lms/products.php?cat=<?php echo ucfirst($row['category']);?>"><?php echo ucfirst($row['category']);?></a></li>
+                <li class="breadcrumb-item"><a href="/index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="/products.php">All Products</a></li>
+                <li class="breadcrumb-item"><a href="/products.php?cat=<?php echo ucfirst($row['category']);?>"><?php echo ucfirst($row['category']);?></a></li>
                 <li class="breadcrumb-item active" aria-current="page"><?php echo ucfirst($row['prod_name']);?></li>
             </ol>
         </nav>
