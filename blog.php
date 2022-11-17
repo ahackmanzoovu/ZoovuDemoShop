@@ -7,7 +7,7 @@ include($nav);
     <div class="row">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/lms/index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="/index.php">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Blog<li>
             </ol>
         </nav>
