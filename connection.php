@@ -2,6 +2,7 @@
 $dir = '/';
 $files1 = scandir($dir);
 
+print_r($files1);
 
 /*
 //$mysqli = new mysqli("localhost","root","","lms");
