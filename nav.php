@@ -2,9 +2,9 @@
 require('connection.php');
 include('scripts.php');
 
-$index_page = '/lms/index.php';
-$products_page = '/lms/products.php';
-$blog_page = '/lms/blog.php';
+$index_page = '/index.php';
+$products_page = '/products.php';
+$blog_page = '/blog.php';
 ?>
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
