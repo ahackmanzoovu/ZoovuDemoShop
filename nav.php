@@ -3,8 +3,8 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
-require('/connection.php');
-include('/scripts.php');
+include('connection.php');
+include('scripts.php');
 
 $index_page = '/index.php';
 $products_page = '/products.php';
