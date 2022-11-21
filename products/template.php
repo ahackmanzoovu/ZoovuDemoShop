@@ -50,7 +50,7 @@ $row = $result -> fetch_assoc();
     </div>
     <div class="row">
         <div class="prod_desc_div text-center">
-            <h4>Product Description</h4>
+            <h4>Product Description - 1</h4>
             <p class="prod_desc"><?php echo $row['prod_desc'];?></p>
         </div>
     </div>
