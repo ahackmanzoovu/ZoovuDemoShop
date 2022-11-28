@@ -57,7 +57,7 @@ while($row = $result -> fetch_assoc())
     <div class="result">
         <div class="result_info_block">
             <div class="img_div">
-                <img class="zv_image" src="https://zoovu.com/blog/wp-content/uploads/2022/06/logo-black.svg"/>
+                <img class="zv_image" src="<?php echo $row['image_url'];?>"/>
             </div>
             <div class="zv_info">
                 <h5 class="result__title"><?php echo $row['prod_name'];?></h5>

@@ -23,7 +23,7 @@ $row = $result -> fetch_assoc();
 
     <div class="row">
         <div class="prod_img_div d-flex flex-wrap align-items-center">
-            <img class="prod_img" src="https://zoovu.com/blog/wp-content/uploads/2022/06/logo-black.svg"/>
+            <img class="prod_img" src="<?php echo $row['image_url'];?>"/>
         </div>
         <div class="prod_info_div">
             <h3 class="prod_name"><?php echo $row['prod_name'];?></h3>
