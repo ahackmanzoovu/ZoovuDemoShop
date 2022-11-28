@@ -95,3 +95,8 @@
     margin-right:30px;
     margin-bottom: 30px;
 }
+.prod_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
