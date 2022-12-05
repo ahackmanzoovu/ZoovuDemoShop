@@ -1,3 +1,8 @@
+<?php
+$nav = $_SERVER['DOCUMENT_ROOT'] . '/nav.php';
+include($nav);
+?>
+
 <div class="row">
     <div class="container text-center">
         <div>
