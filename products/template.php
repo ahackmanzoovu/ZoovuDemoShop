@@ -70,6 +70,6 @@ $( document ).ready(function() {
     var rndInt = randomIntFromInterval(0, 5)
 
     var discount_array = ["5%", "10%", "20%", "30%", "40%", "50%"];
-    $('.js_loaded_info').html("Randomly Generated Discount: " + discount_array[rndInt]);
+    $('.js_loaded_info').html("<p class='rndm_discount'>Randomly Generated Discount: " + discount_array[rndInt] + "</p>");
 });
 </script>
