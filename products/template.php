@@ -62,7 +62,6 @@ $row = $result -> fetch_assoc();
 
 
 <script>
-$( document ).ready(function() {
     function randomIntFromInterval(min, max) { // min and max included 
         return Math.floor(Math.random() * (max - min + 1) + min)
     }
@@ -71,5 +70,4 @@ $( document ).ready(function() {
 
     var discount_array = ["5%", "10%", "20%", "30%", "40%", "50%"];
     $('.js_loaded_info').html("<p class='rndm_discount'>Randomly Generated Discount: " + discount_array[rndInt] + "</p>");
-});
 </script>
