@@ -8,6 +8,8 @@ include($nav);
         <h2 style="text-align: center;">HOW RETURNS WORK<br></h2>
         <p style="text-align: center;">Our team is happy to help with returns for products you purchased through ZoovuDemo.com. Simply call <a href="tel:15551234567">1 (555) 123-4567</a> for major appliances and major appliance parts &amp; accessories, <a href="tel:15551234565">1 (555) 123-4565</a> for water filters, or <a href="tel:15551232347">1 (555) 123-2347</a> for appliance cleaners. Have your order number or product serial number handy and we can help you through the process.</p>
         <p style="text-align: center;"><sub>NOTE: We only accept returns for products purchased directly from ZoovuDemo.com. If you purchased a product at another retailer, please contact that retailer regarding your return.</sub></p>
+        <br><br>
+        <hr>
         <div>
         <h4>MAJOR APPLIANCE</h4>
         <p><sub>GUEST USERS</sub></p>
