@@ -67,7 +67,7 @@ $( document ).ready(function() {
         return Math.floor(Math.random() * (max - min + 1) + min)
     }
 
-    var rndInt = randomIntFromInterval(1, 6)
+    var rndInt = randomIntFromInterval(0, 5)
 
     var discount_array = ["5%", "10%", "20%", "30%", "40%", "50%"];
     $('.js_loaded_info').html("Randomly Generated Discount: " + discount_array[rndInt]);
