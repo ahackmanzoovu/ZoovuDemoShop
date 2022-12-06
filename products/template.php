@@ -42,7 +42,7 @@ $row = $result -> fetch_assoc();
                 var rndInt = randomIntFromInterval(0, 5)
 
                 var discount_array = ["5%", "10%", "20%", "30%", "40%", "50%"];
-                document.getElementsByClassName('js_loaded_info')[0].innerHtmlb = "<p class='rndm_discount'>Randomly Generated Discount: " + discount_array[rndInt] + "</p>";
+                document.getElementsByClassName('js_loaded_info')[0].innerHTML = "<p class='rndm_discount'>Randomly Generated Discount: " + discount_array[rndInt] + "</p>";
             </script>
 
             <?php
