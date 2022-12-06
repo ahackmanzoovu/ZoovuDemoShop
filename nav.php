@@ -9,6 +9,7 @@ include('scripts.php');
 $index_page = '/index.php';
 $products_page = '/products.php';
 $blog_page = '/blog.php';
+$returns_page = '/returns.php';
 ?>
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -27,6 +28,9 @@ $blog_page = '/blog.php';
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $blog_page;?>">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $returns_page;?>">Returns</a>
                 </li>
             </ul>
             <div class="pull-right search_div"></div>
