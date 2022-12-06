@@ -69,6 +69,7 @@ $( document ).ready(function() {
 
     var rndInt = randomIntFromInterval(1, 6)
 
+    //UPDATEEEEE
     var discount_array = ["5%", "10%", "20%", "30%", "40%", "50%"];
     $('.js_loaded_info').html("Randomly Generated Discount: " + discount_array[rndInt]);
 });
