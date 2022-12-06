@@ -34,6 +34,17 @@ $row = $result -> fetch_assoc();
             <h6 class="js_loaded_info"></h6>
             <br>
 
+            <script>
+                function randomIntFromInterval(min, max) { // min and max included 
+                    return Math.floor(Math.random() * (max - min + 1) + min)
+                }
+
+                var rndInt = randomIntFromInterval(0, 5)
+
+                var discount_array = ["5%", "10%", "20%", "30%", "40%", "50%"];
+                $('.js_loaded_info').html("<p class='rndm_discount'>Randomly Generated Discount: " + discount_array[rndInt] + "</p>");
+            </script>
+
             <?php
             if($row['available'] == 1)
             {
@@ -61,13 +72,4 @@ $row = $result -> fetch_assoc();
 </div>
 
 
-<script>
-    function randomIntFromInterval(min, max) { // min and max included 
-        return Math.floor(Math.random() * (max - min + 1) + min)
-    }
 
-    var rndInt = randomIntFromInterval(0, 5)
-
-    var discount_array = ["5%", "10%", "20%", "30%", "40%", "50%"];
-    $('.js_loaded_info').html("<p class='rndm_discount'>Randomly Generated Discount: " + discount_array[rndInt] + "</p>");
-</script>
