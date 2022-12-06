@@ -7,8 +7,8 @@ include($nav);
     <div class="container alert alert-block alert-info col-8">
         <div>
             <h2 style="text-align: center;">HOW RETURNS WORK<br></h2>
-            <p style="text-align: center;">Our team is happy to help with returns for products you purchased through Whirlpool.com. Simply call <a href="tel:15551234567">1 (555) 123-4567</a> for major appliances and major appliance parts &amp; accessories, <a href="tel:15551234565">1 (555) 123-4565</a> for water filters, or <a href="tel:15551232347">1 (555) 123-2347</a> for appliance cleaners. Have your order number or product serial number handy and we can help you through the process.</p>
-            <p style="text-align: center;"><sub>NOTE: We only accept returns for products purchased directly from Whirlpool.com. If you purchased a product at another retailer, please contact that retailer regarding your return.</sub></p>
+            <p style="text-align: center;">Our team is happy to help with returns for products you purchased through ZoovuDemo.com. Simply call <a href="tel:15551234567">1 (555) 123-4567</a> for major appliances and major appliance parts &amp; accessories, <a href="tel:15551234565">1 (555) 123-4565</a> for water filters, or <a href="tel:15551232347">1 (555) 123-2347</a> for appliance cleaners. Have your order number or product serial number handy and we can help you through the process.</p>
+            <p style="text-align: center;"><sub>NOTE: We only accept returns for products purchased directly from ZoovuDemo.com. If you purchased a product at another retailer, please contact that retailer regarding your return.</sub></p>
         </div>
     </div>
 
@@ -50,7 +50,7 @@ include($nav);
         help your situation.</p>
     <p><sub>ACCOUNT HOLDERS</sub></p>
     <p><b>Returns within 60 Days — No return fees</b></p>
-    <p>Enjoy peace of mind with 60 day returns on major appliances for Whirlpool Account Holders. Request your return
+    <p>Enjoy peace of mind with 60 day returns on major appliances for ZoovuDemo Account Holders. Request your return
         within 60 days from the date of delivery for a product refund of your unused major appliance. Simply call<a href="tel:15551234567">1 (555) 123-4567</a> with your order number or product serial number handy.</p>
     <p>Delivery, shipping and service fees will not be refunded</p>
     <p><b>Products Damaged Upon Delivery</b></p>
