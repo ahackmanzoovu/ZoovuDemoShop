@@ -8,6 +8,7 @@ include('scripts.php');
 
 $index_page = '/index.php';
 $products_page = '/products.php';
+$assistant_page = '/assistant_page.php';
 $blog_page = '/blog.php';
 $returns_page = '/returns.php';
 ?>
@@ -27,7 +28,7 @@ $returns_page = '/returns.php';
                     <a class="nav-link" href="<?php echo $products_page;?>">All Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $products_page;?>">Help Me Choose</a>
+                    <a class="nav-link" href="<?php echo $assistant_page;?>">Help Me Choose</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $blog_page;?>">Blog</a>
