@@ -27,6 +27,9 @@ $returns_page = '/returns.php';
                     <a class="nav-link" href="<?php echo $products_page;?>">All Products</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $products_page;?>">Help Me Choose</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="<?php echo $blog_page;?>">Blog</a>
                 </li>
                 <li class="nav-item">
